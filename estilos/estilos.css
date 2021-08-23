@@ -1,0 +1,163 @@
+@import url ('https://fonts.googleapis.com/css2? family = Fjalla + One & display = swap'); 
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+header{
+    font-family: 'Justo', cursiva;
+    color: rgb(248, 142, 104);
+   
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(185, 34, 160, 0.575);
+    
+}
+h1{
+    text-shadow: 10px 10px 6px  rgb(85, 46, 32); 
+    font-size: 400%;
+    text-align: center;
+
+}
+nav{
+    font-family: 'Fjalla One', sans-serif;
+   }
+ul{ display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 115, 68, 0.686);
+    list-style: none;
+    padding: 10px;
+}
+a{text-decoration: none;}
+
+body{
+    background-image: url(../fondos/flores.jpg);
+    background-size: cover;
+}
+.Carrusel{
+
+   
+    height: 500px;       
+    position: relative;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+.TarjetaCarrusel{
+     
+     height: auto;
+     background-color: burlywood;
+
+ }
+
+.felchascarrules{
+
+           
+            height: 100%;
+            width: 100%;
+            position: absolute; 
+            top: -150px;  
+            display: flex;
+            align-items: center;  
+            justify-content: space-between; 
+            padding: 400px;
+}
+
+#contenerdorcarrusel{
+    
+     height: 500px;  
+     
+    overflow:hidden;
+ 
+}
+   
+
+
+
+#punto{
+    display: flex;
+    justify-content: space-around;
+   
+    position: relative;    
+    width: 180px;
+    height: 80px;
+    left: 625px;
+    bottom: 50px;
+    
+  
+
+   
+}
+#punto a{
+    font-size: 4em;
+    text-align: end;
+    
+ 
+}
+
+.caja{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px black;
+    transition: transform 0.3 ease-in-out;
+}
+.caja:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(534px,1fr));
+    grid-auto-rows: minmax(400px, auto);
+    gap: 10px;
+    padding: 10px;
+   
+}
+ 
+ #mapa{
+    position: relative;
+   
+    top: 100px;
+    left: 50px;
+}
+    
+ #descripcion{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    left: 670px;
+    text-justify: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+   
+   }
+
+   #titulo{
+       position: relative;
+       left: 350px;
+       text-shadow: 10px 10px 5px blueviolet;
+       width: 800px;
+       height: 200px;
+       font-family: 'Fjalla One', sans-serif;
+       font-size: 2em;
+    
+
+   }
+
+   #pie{
+       position: relative;
+       top: 100px;
+        background-color: rgb(119, 38, 38);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+}
